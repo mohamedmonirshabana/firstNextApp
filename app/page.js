@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Home() {
   console.log('Executing...');
   return (
@@ -6,7 +8,7 @@ export default function Home() {
       <h1>Welcome to this NextJS Course!</h1>
       <p>🔥 Let&apos;s get started! 🔥</p>
       <p>
-        <a href="/about">About us</a>
+        <Link href="/about">About us</Link>
       </p>
     </main>
   );
